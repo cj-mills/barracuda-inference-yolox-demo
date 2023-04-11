@@ -1,5 +1,5 @@
 # Barracuda Inference YOLOX Demo
- A simple Unity project demonstrating how to perform object detection with the [barracuda-inference-yolox](https://github.com/cj-mills/unity-barracuda-inference-yolox) package.
+A simple Unity project demonstrating how to perform object detection with the [barracuda-inference-yolox](https://github.com/cj-mills/unity-barracuda-inference-yolox) package.
 
 
 
