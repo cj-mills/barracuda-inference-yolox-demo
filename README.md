@@ -1,5 +1,5 @@
 # Barracuda Inference YOLOX Demo
- A simple demo project demonstrating how to use the [barracuda-inference-yolox](https://github.com/cj-mills/unity-barracuda-inference-yolox) package.
+ A simple Unity project demonstrating how to use the [barracuda-inference-yolox](https://github.com/cj-mills/unity-barracuda-inference-yolox) package.
 
 
 
