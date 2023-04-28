@@ -1,0 +1,12 @@
+name: Auto-reply to new issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  auto_reply:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Auto-reply to new issues
+      uses: cj-mills/auto-reply-workflow@main
