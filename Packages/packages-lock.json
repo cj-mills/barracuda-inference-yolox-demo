@@ -32,14 +32,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "a1b0c1c596b7b5e870f7141763f9d10807b97608"
+      "hash": "b7a845010045436825f91934fec5fa5d76bcc22a"
     },
     "com.cj-mills.deep-learning-image-preprocessor": {
       "version": "https://github.com/cj-mills/unity-deep-learning-image-preprocessor.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "e012ea81e2950e903e5ca156334e0f0b8f8750a3"
+      "hash": "d675526150a7e64efa83e0b2e8f5192b1af06692"
     },
     "com.cj-mills.unity-media-display": {
       "version": "https://github.com/cj-mills/unity-media-display.git",
