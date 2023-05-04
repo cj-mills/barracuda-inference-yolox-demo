@@ -217,4 +217,3 @@ public class InferenceController : MonoBehaviour
 
     #endregion
 }
-
