@@ -25,7 +25,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "e2bbc6766e496c222dab18a9a4760ed34fb5c99b"
+      "hash": "19117a768a73f41a5c8102163f93f28e1ffa2800"
     },
     "com.cj-mills.cv-image-gallery": {
       "version": "https://github.com/cj-mills/unity-cv-image-gallery.git",
@@ -53,7 +53,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b468ca6c7b410d8dccedb0a18eea34ad92072f47"
+      "hash": "8d304805c52178944c0ebc503f11ae27783831bc"
     },
     "com.unity.barracuda": {
       "version": "3.0.0",
