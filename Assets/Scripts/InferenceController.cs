@@ -27,6 +27,8 @@ public class InferenceController : MonoBehaviour
     [SerializeField] private int targetDim = 224;
     [Tooltip("Flag to use compute shaders for processing input images.")]
     [SerializeField] private bool useComputeShaders = false;
+    [Tooltip("Flag to normalize input images before passing them to the model.")]
+    [SerializeField] private bool normalizeInput = false;
 
     // Output processing settings
     [Header("Output Processing")]
@@ -126,7 +128,7 @@ public class InferenceController : MonoBehaviour
         if (SystemInfo.supportsComputeShaders && useComputeShaders)
         {
             imageProcessor.CropImageComputeShader(sourceTexture, inputTexture, offset, inputDims);
-            imageProcessor.ProcessImageComputeShader(inputTexture, "NormalizeImage");
+            if (normalizeInput) imageProcessor.ProcessImageComputeShader(inputTexture, "NormalizeImage");
         }
         else
         {
@@ -156,7 +158,7 @@ public class InferenceController : MonoBehaviour
 
         // Crop and normalize the input image using Shaders
         imageProcessor.CropImageShader(sourceTexture, inputTexture, offsetArray, sizeArray);
-        imageProcessor.ProcessImageShader(inputTexture);
+        if (normalizeInput) imageProcessor.ProcessImageShader(inputTexture);
     }
 
     /// <summary>
