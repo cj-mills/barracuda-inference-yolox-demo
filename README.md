@@ -19,6 +19,12 @@ git clone https://github.com/cj-mills/barracuda-inference-yolox-demo.git
 3. Explore the sample scene and [`InferenceController.cs`](https://github.com/cj-mills/barracuda-inference-yolox-demo/blob/5cdfad9df93510755dd5ace6c74fb491a3010630/Assets/Scripts/InferenceController.cs)  script.
 
 
+## Train a Custom Model
+
+If you're interested in training a YOLOX model on a custom dataset, check out my tutorial tutorial linked below:
+
+- **[Training YOLOX Models for Real-Time Object Detection in Pytorch](https://christianjmills.com/series/tutorials/pytorch-train-object-detector-yolox-series.html)**
+
 
 ## License
 
